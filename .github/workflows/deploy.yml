@@ -28,11 +28,17 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Publish ./dist to gh-pages branch
+      - name: Prepare Pages artifacts
+        run: |
+          # Ensure SPA fallback and disable Jekyll processing
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./dist
-          # Optional: keep history so you can see deploy diffs
+          force_orphan: true
           keep_files: false
