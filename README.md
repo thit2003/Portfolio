@@ -1,5 +1,7 @@
 <div align="center">
-  <img width="1200" height="475" alt="Portfolio Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" 
+       alt="Portfolio Banner" 
+       src="https://media.giphy.com/media/1qWlkZHTQ9R34Taixl/giphy.gif" />
 </div>
 
 # Portfolio Website
@@ -17,7 +19,7 @@ This repository contains my personal portfolio website. It showcases my projects
 - **Bundler / Dev server:** Vite
 - **Styling:** (CSS / Tailwind)
 
-## Project Structure (selected)
+## Project Structure
 
 - `App.tsx` — root application component
 - `index.tsx` — app entry
