@@ -49,17 +49,27 @@ const Contact: React.FC = () => {
                  {/* Styled as a glass card roughly simulating a contact card */}
                  <div className="w-full md:w-64 p-6 bg-black/20 rounded-xl border border-white/5 flex flex-col items-center text-center">
                     <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-cyan-500 to-purple-600 mb-4 p-1">
-                        <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-2xl font-bold text-white">
-                            TL
+                        <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-2xl font-bold text-white overflow-hidden">
+                            <img
+                              src="./accessory/My profile.png"
+                              alt="TL"
+                              className="w-full h-full object-cover rounded-full"
+                              loading="lazy"
+                            />
                         </div>
                     </div>
                     <h3 className="text-white font-bold mb-1">Thit Lwin Win Thant</h3>
                     <p className="text-xs text-slate-400 mb-6">Full Stack Developer</p>
                     
-                    <button className="w-full py-3 px-4 bg-white text-slate-900 rounded-lg font-bold hover:bg-cyan-50 transition-colors flex items-center justify-center gap-2">
-                        <Download className="w-4 h-4" />
-                        Download Resume
-                    </button>
+                    <a
+                      href="./accessory/Professional Resume.pdf"
+                      download
+                      role="button"
+                      className="w-full py-3 px-4 bg-white text-slate-900 rounded-lg font-bold hover:bg-cyan-50 transition-colors flex items-center justify-center gap-2"
+                    >
+                      <Download className="w-4 h-4" />
+                      Download Resume
+                    </a>
                  </div>
               </div>
             </div>

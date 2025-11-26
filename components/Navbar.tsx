@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
             <Terminal className="text-white w-5 h-5" />
           </div>
           <span className="text-xl font-bold tracking-tight text-white">
-            TLWT<span className="text-cyan-400">.dev</span>
+            TLWT<span className="text-cyan-400">.cs</span>
           </span>
         </div>
 
