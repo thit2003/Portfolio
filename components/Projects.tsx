@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
       category: "Full-Stack Chatbot Website",
       description: "Built a responsive React chat UI with real-time messaging and secure auth (JWT/Google OAuth). Backend using Node.js/Express with Rasa NLU and Gemini API. Containerized with Docker and deployed on Render.",
       techStack: ["React", "Node.js", "Express", "Rasa NLU", "Gemini API", "Docker", "JWT"],
-      link: "#" // Placeholder link
+      link: "https://github.com/thit2003/InfoNest" // Placeholder link
     },
     {
       title: "AI Image Detection",
@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
       category: "Computer Vision",
       description: "Built and trained a YOLOv11 object-detection pipeline in Python with data preprocessing and hyperparameter tuning. Optimized model performance and maintained codebase on GitHub.",
       techStack: ["Python", "YOLOv11", "OpenCV", "GitHub", "Data Preprocessing"],
-      link: "#"
+      link: "https://github.com/thit2003/AI_Image_Detection"
     },
     {
       title: "Active Heaven",
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
       category: "Database Full Stack Website",
       description: "Developed responsive UI with HTML/CSS/JS. Implemented client-side logic and integrated back-end APIs. Focused on efficient database interaction.",
       techStack: ["HTML", "CSS", "JavaScript", "SQL", "REST API"],
-      link: "#"
+      link: "https://github.com/thit2003/Data_Base_Project"
     }
   ];
 

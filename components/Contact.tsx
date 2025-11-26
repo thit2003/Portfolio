@@ -36,10 +36,10 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex justify-center md:justify-start gap-4 pt-4">
-                  <a href="#" className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
+                  <a href="https://github.com/thit2003" className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
                     <Github className="w-5 h-5" />
                   </a>
-                  <a href="#" className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
+                  <a href="https://www.linkedin.com/in/thit-lwin-win-thant-49b174383/" className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cyan-400/50 hover:text-cyan-400 transition-all">
                     <Linkedin className="w-5 h-5" />
                   </a>
                 </div>
