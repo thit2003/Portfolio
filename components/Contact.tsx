@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
                     <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-cyan-500 to-purple-600 mb-4 p-1">
                         <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-2xl font-bold text-white overflow-hidden">
                             <img
-                              src="./accessory/My profile.png"
+                              src="./images/My profile.png"
                               alt="TL"
                               className="w-full h-full object-cover rounded-full"
                               loading="lazy"
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                     <p className="text-xs text-slate-400 mb-6">Full Stack Developer</p>
                     
                     <a
-                      href="./accessory/Professional Resume.pdf"
+                      href="./images/Professional Resume.pdf"
                       download
                       role="button"
                       className="w-full py-3 px-4 bg-white text-slate-900 rounded-lg font-bold hover:bg-cyan-50 transition-colors flex items-center justify-center gap-2"
