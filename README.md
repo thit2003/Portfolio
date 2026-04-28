@@ -4,7 +4,7 @@ This repository contains my personal portfolio website. It showcases my projects
 
 **Repository purpose:** This is my portfolio website source code and assets.
 
-**Live demo:** (https://thit2003.github.io/Portfolio/)
+**Live demo:** https://thit2003.github.io/Portfolio/
 
 ## Tech Stack
 
