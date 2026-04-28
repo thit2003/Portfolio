@@ -6,19 +6,19 @@ import { SkillCategory } from '../types';
 const Skills: React.FC = () => {
   const skillsData: SkillCategory[] = [
     {
-      title: "Core",
+      title: "Cores",
       icon: Code2,
-      skills: ["Python", "Java", "JavaScript", "HTML", "CSS"]
+      skills: ["JavaScript", "React", "Rest API", "Next.js", "Node.js", "Express.js", "Problem solving", "Project documentation", "Team collaboration"]
     },
     {
-      title: "Web & Tools",
+      title: "Tools",
       icon: Globe,
-      skills: ["React", "Node.js", "Docker", "Figma", "GitHub", "MongoDB"]
+      skills: ["PostgreSQL", "MongoDB", "Git & GitHub", "Figma", "VS Code", "Canva"]
     },
     {
-      title: "Specialized",
+      title: "Specializations",
       icon: Brain,
-      skills: ["NLP", "Prompt Engineering", "Data Analytics", "Rasa NLU", "Gemini API"]
+      skills: ["Responsive UI development", "Data analysis with Python", "Machine learning / model evaluation", "Natural Language Processing"]
     }
   ];
 

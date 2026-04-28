@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
                         </div>
                     </div>
                     <h3 className="text-white font-bold mb-1">Thit Lwin Win Thant</h3>
-                    <p className="text-xs text-slate-400 mb-6">Full Stack Developer</p>
+                    <p className="text-xs text-slate-400 mb-6">CS Final-Year Student</p>
                     
                     <a
                       href="./images/Professional Resume.pdf"

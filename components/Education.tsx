@@ -26,12 +26,12 @@ const Education: React.FC = () => {
                   <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-2">
                     <h3 className="text-xl md:text-2xl font-bold text-white">BSCS in Computer Science</h3>
                     <span className="px-3 py-1 text-xs rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 w-fit">
-                      2023 - 2026
+                      2023 - Present (Soon to be graduated)
                     </span>
                   </div>
                   <h4 className="text-lg text-slate-300 mb-2">Assumption University of Thailand</h4>
                   <p className="text-slate-400 text-sm">
-                    Focusing on advanced algorithms, software engineering principles, and artificial intelligence systems.
+                    Focusing on Data & Informatics and Natural Language Processing
                   </p>
                 </div>
               </div>
@@ -51,17 +51,33 @@ const Education: React.FC = () => {
                     <div className="flex items-start gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-2"></div>
                       <p className="text-slate-300">
-                        <span className="font-semibold text-white">Coursera Algorithmic Toolbox</span>
+                        <span className="font-semibold text-white">HTML, CSS, and Javascript for Web Developers</span>
                         <br />
-                        <span className="text-sm text-slate-500">University of California San Diego</span>
+                        <span className="text-sm text-slate-500">Johns Hopkins University</span>
                       </p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-2"></div>
                       <p className="text-slate-300">
-                        <span className="font-semibold text-white">HTML, CSS, and Javascript for Web Developers</span>
+                        <span className="font-semibold text-white">Foundations of UX Design</span>
                         <br />
-                        <span className="text-sm text-slate-500">Johns Hopkins University</span>
+                        <span className="text-sm text-slate-500">Google</span>
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-2"></div>
+                      <p className="text-slate-300">
+                        <span className="font-semibold text-white">Technical Support Fundamentals</span>
+                        <br />
+                        <span className="text-sm text-slate-500">Google</span>
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-2"></div>
+                      <p className="text-slate-300">
+                        <span className="font-semibold text-white">Foundations of Digital Marketing and E-commerce</span>
+                        <br />
+                        <span className="text-sm text-slate-500">Google</span>
                       </p>
                     </div>
                   </div>

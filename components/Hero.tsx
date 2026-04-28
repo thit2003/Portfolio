@@ -3,7 +3,7 @@ import { ArrowRight, Download, ChevronDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
-  const fullText = "Computer Science Student | Full-Stack Developer | AI Enthusiast";
+  const fullText = "Computer Science Student | Full-Stack Developer | Data Enthusiast";
   const [isTypingComplete, setIsTypingComplete] = useState(false);
 
   useEffect(() => {
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
 
         {/* Bio */}
         <p className="text-slate-300 max-w-2xl mx-auto leading-relaxed text-lg animate-fade-in-up opacity-0" style={{ animationDelay: '1.5s', animationFillMode: 'forwards' }}>
-          Motivated Computer Science student at Assumption University of Thailand (2023-2026). Experienced in full-stack development, UI/UX design, and database administration. Proficient in Python, Java, JavaScript, Docker, and Figma.
+          Motivated Computer Science student at Assumption University of Thailand. Experienced in full-stack development, UI/UX design, and database administration. Proficient in Python, Java, JavaScript, Project Documentation and Problem Solving.
         </p>
 
         {/* Buttons */}

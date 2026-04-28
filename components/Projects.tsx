@@ -6,20 +6,20 @@ import { ExternalLink, Github, MessageSquare, ScanFace, Database } from 'lucide-
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
+      title: "NLP Model",
+      year: "2026",
+      category: "Sentiment Analysis for English and Thai",
+      description: "Built an end-to-end sentiment-analysis pipeline for reviews using Python: text cleaning, TF-IDF features, and trained classifiers with scikit-learn. Evaluated models with machine learning metrics, performed error analysis and tuning, and documented a reproducible workflow.",
+      techStack: ["Python", "Jupyter Notebook", "Google Colab", "Google Drive", "Documentation", "Git/ GitHub"],
+      link: "https://github.com/thit2003/NLP_term_project"
+    },
+    {
       title: "InfoNest",
       year: "2025",
       category: "Full-Stack Chatbot Website",
       description: "Built a responsive React chat UI with real-time messaging and secure auth (JWT/Google OAuth). Backend using Node.js/Express with Rasa NLU and Gemini API. Containerized with Docker and deployed on Render.",
       techStack: ["React", "Node.js", "Express", "Rasa NLU", "Gemini API", "Docker", "JWT"],
-      link: "https://github.com/thit2003/InfoNest" // Placeholder link
-    },
-    {
-      title: "AI Image Detection",
-      year: "2024",
-      category: "Computer Vision",
-      description: "Built and trained a YOLOv11 object-detection pipeline in Python with data preprocessing and hyperparameter tuning. Optimized model performance and maintained codebase on GitHub.",
-      techStack: ["Python", "YOLOv11", "OpenCV", "GitHub", "Data Preprocessing"],
-      link: "https://github.com/thit2003/AI_Image_Detection"
+      link: "https://github.com/thit2003/InfoNest"
     },
     {
       title: "Active Heaven",
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
               </span>
             </h2>
             <p className="text-slate-400 max-w-xl text-lg">
-              A selection of recent work involving full-stack development, AI integration, and database management.
+              A selection of works involving full-stack development, AI integration, Natural Language Processing and database management.
             </p>
           </div>
         </ScrollReveal>
