@@ -1,9 +1,3 @@
-<div align="center">
-  <img width="1200" height="475" 
-       alt="Portfolio Banner" 
-       src="https://media.giphy.com/media/1qWlkZHTQ9R34Taixl/giphy.gif" />
-</div>
-
 # Portfolio Website
 
 This repository contains my personal portfolio website. It showcases my projects, skills, education, and contact information. The site is implemented with React + TypeScript and bundled using Vite.
